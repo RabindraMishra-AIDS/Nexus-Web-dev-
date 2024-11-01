@@ -1,0 +1,6 @@
+*{
+    background-color: beige;
+}
+li[draggable="true"]{
+    background-color: blue;
+}

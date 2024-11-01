@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4</title>
+</head>
+<body>
+
+    <form action="">
+        <fieldset>
+            <legend>IIT Jee Registration</legend>
+
+        <label for="fname">Full Name:</label>
+        <input type="text" required id="fname" name="Full Name"> <br><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" required name="Phone Number" id="phone"><br><br>
+        <label for="email">Email: </label>
+        <input type="email" required id="email" name="Email"><br><br>
+        <label >Gender: </label>
+        <input type="radio" id="Male" name="gender" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="gender" value="Female" required>
+        <label for="Female">Female</label>
+        <input type="radio" id="Other" name="gender" value="Other">
+        <label for="Other">Other</label><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="DOB" required min="2001-01-01" max="2005-01-01"><br><br>
+        <label for="school">School Name:</label>
+        <input type="text" id="school" name="School Name"><br><br>
+        <label for="board">Board:</label>
+        <select name="Board" id="board">
+            <option value="" disabled selected>Choose Board</option>
+            <option value="Maharashtra">MHSSB</option>
+            <option value="CBSE">CBSE</option>
+            <option value="ICSE">ICSE</option>
+        </select><br><br>
+        <label for="year">Year of Passing:</label>
+        <input type="number" min="2019" max="2025"> <br><br>
+        <label for="center">Exam center:</label>
+        <select name="Exam Center" id="center">
+            <option value="" disabled selected>Select Center</option>
+            <option value="surat">Surat</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Patna">Patna</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Amritsar">Amritsar</option>
+            <option value="Ghuwati">Ghuwati</option>
+        </select><br><br>
+        <button>Register</button>
+        </fieldset>
+    </form>
+</body>
+</html>
