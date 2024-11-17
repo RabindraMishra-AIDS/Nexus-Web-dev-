@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background-color: azure;
+    display: grid;
+    padding: 4rem;
+    gap: 1rem;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.box{
+    background-color: rgb(247, 187, 167);
+}
+.box1{
+    grid-row: 1/4;
+    background-color: rgb(239, 180, 32);
+}
+.box2{
+    grid-column: 2/4;
+}
+.box6{
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
+.box3,.box5,.box7{
+    background-color: rgb(211, 93, 93);
+}

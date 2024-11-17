@@ -1,0 +1,18 @@
+h2{
+    background-color: beige;
+    border-width: 2px;
+    border-style: solid;
+    border-color: lawngreen;
+    width: 884px;
+    padding-left: 10px;
+    
+}
+ul{
+    background-color: coral;
+}
+p{
+    border-width: 5px;
+    border-style: dashed;
+    background-color: grey;
+    padding: 10px;
+}

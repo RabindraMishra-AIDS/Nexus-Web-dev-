@@ -1,0 +1,24 @@
+.box{
+display: inline-block;
+background-color: cadetblue;
+height: 200px;
+width: 200px;
+}
+.container{
+background-color: aqua;
+margin-top: 100px;
+margin-left: 100px;
+}
+
+.box1{
+background-color: crimson;
+}
+.box2{
+background-color: hotpink;
+}
+.box3{
+background-color:lawngreen ;
+}
+.box4{
+background-color: tomato;
+}

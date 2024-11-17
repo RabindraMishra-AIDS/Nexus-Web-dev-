@@ -1,0 +1,31 @@
+.container{
+    background-color: aqua;
+    margin-left: 200px;
+    margin-top: 150px;
+    height: 100vh;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    display: inline-block;
+}
+.box1{
+    background-color: darkkhaki;
+}
+.box2{
+    background-color: greenyellow;
+    position: fixed;
+    top: 10px;
+    z-index: -1;
+}
+.box3{
+    background-color: violet;
+}
+.box4{
+    background-color: peru;
+}
+.container{
+    height: 800px;
+    background-color: brown;
+}

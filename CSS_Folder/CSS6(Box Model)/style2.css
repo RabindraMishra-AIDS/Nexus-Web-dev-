@@ -1,0 +1,7 @@
+h1{
+    border: 10px solid black;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px 50px 22px 30px;   /*Used for spacing between different elements*/
+}

@@ -1,0 +1,13 @@
+h2{
+    color: rgb(225, 225, 13);
+    background-color: rgb(140, 219, 233);
+    font-family:'Segoe UI';
+}
+h3{
+    color: rgb(240, 172, 172);
+}
+body{
+    background-color: azure;
+    background-image: url(./diet.jpg);
+    background-size: cover;
+}

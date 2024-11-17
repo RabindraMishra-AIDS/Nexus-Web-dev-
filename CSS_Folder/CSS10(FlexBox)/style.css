@@ -1,0 +1,28 @@
+.container{
+    background-color: aquamarine;
+    height: 1000px;
+    display: flex;
+    flex-direction: row-reverse;
+    /*flex-direction:column-reverse*/
+    justify-content: center;
+    align-items: end;
+}
+.box{
+    height:150px ;
+    width:150px ;
+    border:5px solid black ;
+    margin: 5px;
+
+}
+.box1{
+    background-color: goldenrod;
+}
+.box2{
+    background-color: azure;
+}
+.box3{
+    background-color: hotpink;
+}
+.box4{
+    background-color: crimson;
+}

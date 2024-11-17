@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.orbit{
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+.sun{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mercury{
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    background-color: chocolate;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: mercury;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+.earth{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(78, 44, 216);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: earth;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+}
+.mars{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(211, 89, 23);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: mars;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+@keyframes mercury {
+    from{
+        transform: rotate(0deg) translate(150px);
+    }
+    to{
+        transform: rotate(360deg) translate(150px);
+    }
+}
+@keyframes earth {
+    from{
+        transform: rotate(0deg) translate(250px);
+    }
+    to{
+        transform: rotate(360deg) translate(250px);
+    }
+}
+@keyframes mars {
+    from{
+        transform: rotate(0deg) translate(320px);
+    }
+    to{
+        transform: rotate(360deg) translate(320px);
+    }
+}

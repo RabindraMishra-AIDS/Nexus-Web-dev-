@@ -1,0 +1,10 @@
+.container{
+    width: 800px;
+    height: 800px;
+    background-color: aqua;
+}
+.box{
+    background-color: orange;
+    height: 300px;
+    width: 300px;
+}
