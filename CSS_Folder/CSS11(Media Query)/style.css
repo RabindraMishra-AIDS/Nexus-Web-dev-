@@ -1,0 +1,21 @@
+.container{
+    background-color: aqua;
+    display: flex;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+    background-color: coral;
+    color: darkgreen;
+}
+@media (max-width:500px) {        /*Using Media Query*/
+    .container{
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width:601px) and (max-width:900px){
+    
+}

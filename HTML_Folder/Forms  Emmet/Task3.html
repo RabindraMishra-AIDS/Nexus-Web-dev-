@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3</title>
+</head>
+<body>
+    <header>
+        <h1>Employee Details forms</h1>
+    </header>
+    <main>
+        <form action="">
+            <label for="label">Full Name:</label>
+            <input type="text" name="Full Name" id="label" placeholder="Enter your full Name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" required placeholder="Enter your email" id="email" name="email">
+            <br><br>
+            <label for="Phone">Phone Number:</label>
+            <input type="tel" required placeholder="Enter ph Number" id="Phone" name="Phone Number">
+            <br><br>
+            <label>Gender:</label>
+            <input type="radio" name="gender" id="male" value="Male"><!-- Mentionong Value is imp-->
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="Female"><!-- If not mentioned value given to the server will be on (Radio type input)-->
+            <label for="female">Female</label>
+            <br><br>
+            <label for="Title">Job Title:</label>
+            <input type="text" id="Title" placeholder="Enter your title" name="Job Title">
+            <br><br>
+            <label for="Dept">Department:</label>
+            <select name="Department" id="Dept">
+                <option value="" disabled selected>Select your Department</option>
+                <option value="Datascience">Datascience</option>
+                <option value="Computer Science">CSE</option>
+                <option value="Mechanical">Mech</option>
+                <option value="Civil">Civil</option>
+                <option value="Cyber Security">Cyber Security</option>
+            </select>
+            <br><br>
+            <button>Submit</button>
+        </form>
+    </main>
+</body>
+</html>

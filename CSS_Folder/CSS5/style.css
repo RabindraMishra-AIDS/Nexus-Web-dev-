@@ -1,0 +1,27 @@
+h1{
+    background-color: burlywood;
+    display: inline;
+}
+.first_class{
+background-color: blueviolet
+} 
+#first_id{
+    background-color: deeppink;
+}
+h1[draggable="true"]{
+    background-color: green;
+}
+body>h1{
+    background-color: peru;
+}
+body h1{
+    background-color: brown;
+}
+h2{
+    color: brown;
+    font-family: "Hind";
+}
+h2{
+    color: coral !important;
+}
+

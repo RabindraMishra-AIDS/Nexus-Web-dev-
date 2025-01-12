@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+}
+
+h1{
+    position: fixed; /*It became inline element due to position fixed.*/
+    width: 100%;
+    background-color: beige;
+}
+main{
+    padding-top: 60px;
+}

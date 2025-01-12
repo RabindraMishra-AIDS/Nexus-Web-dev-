@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    justify-content: center;
+    display: grid;
+    height: 100%;
+    background-color: black;
+    padding: 4rem;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill,minmax(100px,200px));
+}
+.box{
+    background-color: rgb(243, 145, 113);
+    font-size: 4rem;
+    color: crimson;
+}

@@ -1,0 +1,18 @@
+.container{
+    text-align: center;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+}
+.container>h2{
+    background-color: indianred;
+}
+.container>p{
+    background-color: beige;
+    text-align: justify;
+}
+.container>button{
+    background-color: deeppink;
+}
+.another{
+    text-transform: capitalize;
+}
