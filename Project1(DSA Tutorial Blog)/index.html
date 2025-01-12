@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <style>
+        #array>table, #Tree>table{
+            width: 100%;
+        }
+        header>nav {
+            background-color: rgb(228, 204, 195);
+            
+        }
+        header{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center;">Learn DSA for Free from Youtube</h1>
+        <nav>
+        <ol>
+            <li><a href="#Introduction">C++ Introduction</a></li>
+            <li><a href="#c++ compiler">C++ Compiler</a></li>
+            <li><a href="#array">Array</a></li>
+            <li><a href="#Tree">Tree</a></li>
+        </ol>
+        </nav>
+    </header>
+    <main style="padding-top: 200px;">
+        <section id="Introduction">
+            <h2>Introduction to C++</h2>
+            <p>C++ is powerfull general purpose programming language that was developed as an extension of c programming
+                language by Bjarne Stroustrup in the early 1980's.C++ is widely used for system/software
+                development,game development and applications that require high performance.</p>
+            <h3>Features of C++</h3>
+            <ul>
+                <li>Object-Orineted:C++ supports object oriented programming (OPP's) Principles. Thus allowing us to create classes and objects.</li>
+                <li>Rich Standard Libraries:C++ Provides variety of in built functions and Libraries,which can significantly reduce development time.</li>
+                <li>Compatibility: C++ is compatible with C,allowing for integration in various codes</li>
+                <li>Performance: C++ allows low level memory manipulation thus allowing developers to build optimized applications.</li>
+            </ul>
+            <h3>Basic Syntax</h3>
+            <img src="./C++.png" alt="" width="50%" height="350">
+            <pre style="background-color: azure;">
+        <code>
+        #include &lt;iostream&gt;             <!--It is considering <iostream> as a tag thus not displaying it.-->
+            using namespace std;
+            
+            int main() {
+                cout << "Hello World!";
+                return 0;
+            }
+        </code>
+            </pre>
+            <h3 id="c++ compiler">Online C++ Compiler</h3>
+            <iframe src="https://onecompiler.com/cpp" frameborder="0" height="600" width="100%"></iframe>
+        </section>
+
+        <!----------------------------- Array--------------------------->
+        <section id="array">
+            <h2>Introduction to Arrays</h2>
+            <h3>What is an Array?</h3>
+            <p>An array is a datastructure that stores the element in a continous memory block.But the elements must be of the same datatypes. Basically it helps us to store multiple elements inside a single variable allowing efficient data management and manipulation.</p><br>
+            <img src="./Array.png" alt="Array Image">
+            <br>
+            <h3>Characteristics of Array</h3>
+            <ul>
+                <li>Fixed Size: Size oof an array is always defined when created and cannot be changed during runtime</li>
+                <li>Indexed:Each elements in an array is indexed so that it can be accesed easily.</li>
+                <li>Homogenous Elements: Each elements of an array are of same datatypes.</li>
+            </ul>
+            <h3>Types of Arrays</h3>
+            <ol>
+                <li>One-Dimensional Arrays:Linear List of elements where each element can be acessed using single index. <ul style="list-style-type: circle;"><li>Example: int num[5]; (stores 5 Elements).</li></ul></li>
+                <li>Multi-Dimensional Arrays:Arryas with more than one dimensions commonly used for Matrices or tables. <ul style="list-style-type: circle;"><li>Example: int num[3][3]; (a 3x3 Matrix).</li></ul></li>
+                <li>Dynamic Arrays:Arrays that can change size during Program execution typically implemented using data structures like lists.</li>
+            </ol>
+            <h3>Tutorial for Refrences</h3>
+            <table border="0">
+                <tbody>
+                    <tr>
+                        <td><iframe src="https://www.youtube.com/embed/H-57MLM5Tyc" frameborder="0"></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/QZ9edJ0JCPw" frameborder="0"></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/B-WWdC-H0zw" frameborder="0"></iframe></td>
+                    </tr>
+                    <tr>
+                        <td><iframe src="https://www.youtube.com/embed/567332frcF0 " frameborder="0"></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/excAOvwF_Wk" frameborder="0"></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/JRAByolWqhw" frameborder="0"></iframe></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!---------------------------------------   Tree  ------------------------------------------>
+        <section id="Tree">
+        <h2>Introduction To Trees</h2>
+        <p>Tree Data Structure is a non-linear data structure in which a collection of elements known as nodes are connected to each other via edges such that there exists exactly one path between any two nodes.</p><br>
+        <img src="./Tree.png" alt="Tree image">
+        <h3>Chatacteristics of Tree</h3>
+        <ul>
+            <li>Root Node: Node that does not has any precedend.</li>
+            <li>Parent Node:A node that has one or more children.</li>
+            <li>Child Node:A node that is descendent of another Node.</li>
+            <li>Leaf Node: A node that does not have any children</li>
+        </ul>
+        <h3>Types of Tree</h3>
+        <ol>
+            <li>Binary Search Tree</li>
+            <li>AVL Tree</li>
+            <li>Red Black Tree</li>
+            <li>N-array Tree</li>
+        </ol>
+        <table>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/_b0bfpO3b4I" frameborder="0"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/P30p5jYsiDc" frameborder="0"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/T78jHD4fNgc" frameborder="0"></iframe></td>
+            </tr>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/Sxb152a5Am8" frameborder="0"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/ytesTkCa3wk" frameborder="0"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/GMZ3DcXiHHQ" frameborder="0"></iframe></td>
+            </tr>
+        </table>
+        </section>
+    </main>
+    <Footer>
+        <p>&copy All rights Reserved with Rabindra Mishra </p>
+    </Footer>
+</body>
+
+</html>
