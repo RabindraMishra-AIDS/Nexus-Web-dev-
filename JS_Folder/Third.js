@@ -16,3 +16,10 @@ acc_number:56,
 balance:420
 }
 console.log(obj,typeof(obj))
+
+//Function 
+//Note:- Typeof function is also a function in Javasccript.
+let fun = function(){
+    console.log("Hello welcome to Javascript.")
+}
+fun(); //Function Call.
