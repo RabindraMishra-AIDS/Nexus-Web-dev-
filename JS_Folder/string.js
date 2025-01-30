@@ -41,3 +41,16 @@ let s="man is good man";
 console.log(s.lastIndexOf("man"));
 
 console.log(s.includes("man"))
+
+// ################### Replacing in String ########################
+let newstr="Hello ji kaise ho sablog ji";
+console.log(newstr.replace("ji","Money"));
+console.log(newstr.replaceAll("ji","Money"));
+
+// ################### New way of declaring out the strings ########################
+let str20= new String("My name is amar akbar anthony"); //Here string is declared as an Object.
+console.log(typeof str20)
+
+// ################### Splitting strings ########################
+let s1="Mannu,bannu,sannu";
+console.log(s1.split(","));
