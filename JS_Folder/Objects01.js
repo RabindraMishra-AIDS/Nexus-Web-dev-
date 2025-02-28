@@ -46,3 +46,41 @@ console.log(obj4);
 //Updating a Property
 obj4.name="Anurag";
 console.log(obj4);
+
+
+//############### Using Class ########################
+class people {
+    constructor(name,age,gender){
+        this.name=name;
+        this.age=age;
+        this.gender=gender;
+    }
+}
+
+let per1= new people("Rabindra",20,"Male");
+console.log(`Per1 name :${per1.name}`); //This method increases productivity.
+
+let per2= new people("Rohi",40,"Female");
+console.log(per2);
+
+//Fetching out all the keys of class
+const arr=Object.keys(per1);
+console.log(arr)
+
+//Fetching out all the values.
+const arr1=Object.values(per1)
+console.log(arr1)
+
+//Fetching key,values in the form of arrays.
+console.log(Object.entries(per1));
+
+//Combining two Objects [Method 1: assign()]
+const per3={a:1,b:2};
+const per4={c:5,d:6};
+
+const obj5=Object.assign({},per3,per4);
+console.log(`object5:${obj5}`);
+
+//Combining two Objects [Method 2: spread operator]
+const obj6={...per3,...per4}
+console.log(`Object6 (spread):${obj6}`)
