@@ -84,3 +84,5 @@ console.log(`object5:${obj5}`);
 //Combining two Objects [Method 2: spread operator]
 const obj6={...per3,...per4}
 console.log(`Object6 (spread):${obj6}`)
+
+//Note: Wherevr there is heap memory you will find Object datatype in use.
